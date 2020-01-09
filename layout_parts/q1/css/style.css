@@ -26,7 +26,7 @@
   margin: 0 auto;
   padding: 20px;
   background-color: #eff3f4;
-  box-sizing: border-box;
+  box-sizing: 940px;
 }
 
 /* q1__content__boxというクラスに対してのスタイルの指定（同じクラス全てに指定されるスタイル） */

@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q6__box__inner {
+.first-box {
   text-align: center;
 }
 
@@ -32,7 +32,7 @@
 }
 
 
-.q6__box__text-top {
+.q6__box__text-table {
   text-align: center; 
   display: inline-block;
   background-color: #fff;
@@ -44,17 +44,17 @@
   justify-content: center;
 }
 
-.q6__box__text-under {
+.q6__box__text-flex {
   background-color: #fff;
   padding: 10px;
   margin: auto;
 }
 
-.dog {
+.is-relative, .is-flexible {
   position: relative;
 }
 
-.dog-text {
+.is-stable__text {
   position: absolute;
   margin: auto;
   top: 0;
@@ -63,11 +63,7 @@
   bottom: 0;
 }
 
-.cat {
-  position: relative;
-}
-
-.cat-text {
+.is-flexible__text {
   position: absolute;
   top: 50%;
   left: 50%;

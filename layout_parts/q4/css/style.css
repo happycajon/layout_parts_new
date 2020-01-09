@@ -2,7 +2,7 @@
 
 /* 回答はここに書いてね */
 
-.q4 {
+.main-box {
   padding: 20px;
   box-sizing: border-box;
 }
@@ -10,6 +10,7 @@
 .q4__contents:first-child {
   margin-top: 0;
 }
+
 .q4__contents {
   display: table;
   margin-top: 20px;
@@ -21,12 +22,12 @@
   display: table-cell;
   padding: 20px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .pink {
   width: 100px;
   background-color: #fdc8b8;
-  padding: 20px;
 }
 
 .purple {

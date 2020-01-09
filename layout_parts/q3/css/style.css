@@ -27,7 +27,7 @@
   border-top: 2px dashed #000;
 }
 
-tr:nth-child(even) {
+.q3__contents tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
