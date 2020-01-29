@@ -9,12 +9,12 @@
   background-color: #eff3f4;
 }
 
-.q2__thumb__left.is-left {
+.q2__thumb__left {
   float: left;
   margin-right: 20px;
 }
 
-.q2__thumb__right.is-right {
+.q2__thumb__right {
   float: right;
   margin-left: 20px;
 }

@@ -86,7 +86,7 @@
 }
 
 .is-9 {
-  z-index: 10;
+  z-index: 9;
   position: fixed;
   top: 10px;
   left: 10px;
