@@ -2,6 +2,11 @@
 
 /* 回答はここに書いてね */
 
+.q7__box__common {
+  width: 225px;
+  font-size: 16px;
+}
+
 .clearfix::after {
   content: "";
   display: block;
@@ -15,7 +20,7 @@
 .is-float {
   box-sizing: border-box;
   float: left;
-  width: 225px;
+  /* width: 225px; */
   margin-left: 50px;
 }
 
@@ -23,15 +28,13 @@
   display: table;
 }
 
-.is-left {
-  vertical-align: middle;
-  width: 225px;
-  display: table-cell;
+.table__text__box:first-child {
   padding-left: 0;
+  vertical-align: middle;
 }
 
-.is-right {
-  width: 225px;
+.table__text__box {
+  /* width: 225px; */
   display: table-cell;
   padding-left: 50px;
 }
@@ -46,11 +49,11 @@
 
 .inline-box {
   display: inline-block;
-  width: 225px;
+  /* width: 225px; */
   vertical-align: middle;
   box-sizing: border-box;
   margin-left: 50px;
-  font-size: 16px;
+  /* font-size: 16px; */
 }
 
 .flex-main {
@@ -59,16 +62,10 @@
   align-items: flex-end;
 }
 
-.flex-main .flex-box__left {
+.flex-main .flex-box__text {
   box-sizing: border-box;
   vertical-align: middle;
-  width: 225px;
-}
-
-.flex-main .flex-box__right {
-  box-sizing: border-box;
-  vertical-align: middle;
-  width: 225px;
+  /* width: 225px; */
 }
 
 .inline-margin__main {
